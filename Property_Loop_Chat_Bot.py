@@ -423,7 +423,7 @@ def ask_bot(query: str,
 # Streamlit UI
 # -------------------------
 st.set_page_config(page_title="PropertyLoop RAG Chatbot (Qwen)", layout="wide")
-st.title("PropertyLoop RAG Chatbot — Qwen ")
+st.title("PropertyLoop RAG Chatbot — Qwen Edition")
 
 with st.sidebar:
     st.markdown("### Data input")
