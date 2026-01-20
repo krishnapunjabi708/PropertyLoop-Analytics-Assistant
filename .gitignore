@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.env.*
+
+# Data & caches
+embeddings.npy
+index.faiss
+documents.npy
+metadatas.npy
+*.npz
+
+# Model caches (huggingface)
+~/.cache/huggingface/
+cache/
+transformers_cache/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
